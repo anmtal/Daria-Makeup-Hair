@@ -28,9 +28,12 @@ header.scrolled{background:rgba(251,246,240,.92);backdrop-filter:blur(10px);padd
 .nav{display:flex;align-items:center;justify-content:space-between}
 .brand{font-family:var(--serif);font-size:23px;letter-spacing:.04em;display:flex;align-items:center;gap:11px}
 .brand b{font-weight:600}
-.brand img{height:94px;width:auto;display:block;transition:height .4s}
-header.scrolled .brand img{height:70px}
-@media(max-width:900px){.brand img{height:64px}}
+.brand-mono{font-family:var(--serif);font-weight:600;font-size:46px;line-height:.85;letter-spacing:.01em;
+  background:linear-gradient(140deg,var(--rose) 6%,var(--gold) 94%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:var(--gold);transition:font-size .4s}
+.brand-name{display:flex;flex-direction:column;font-family:var(--serif);font-weight:500;font-size:24px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink);line-height:1}
+.brand-name em{font-family:var(--sans);font-style:normal;font-size:8.5px;letter-spacing:.3em;color:var(--gold);margin-top:5px;font-weight:500}
+header.scrolled .brand-mono{font-size:37px}
+@media(max-width:900px){.brand-mono{font-size:37px}.brand-name{font-size:19px}.brand-name em{font-size:7.5px}}
 .mono{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:17px;color:var(--gold);font-weight:600}
 .nav-links{display:flex;gap:34px;align-items:center}
 .nav-links a{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:400;color:var(--ink);opacity:.85;transition:.25s}

@@ -115,6 +115,10 @@ section{padding:110px 0}
 .gal-item .lbl svg{width:34px;height:34px;stroke:rgba(59,47,42,.55);margin-bottom:8px}
 .gal-item .lbl span{display:block;font-family:var(--serif);font-style:italic;font-size:20px;color:rgba(59,47,42,.7)}
 .gal-note{text-align:center;color:var(--muted);font-size:14px;margin-top:26px;font-style:italic}
+.ig-feed{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:1120px;margin:0 auto}
+.ig-cell{width:min(336px,100%)}
+.instagram-media{margin:0 auto!important;min-width:0!important}
+.ig-follow{text-align:center;margin-top:40px}
 
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;counter-reset:s}
@@ -258,17 +262,17 @@ footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em
     <div class="sec-head reveal">
       <div class="divider"><span></span>✦<span></span></div>
       <h2>A glimpse of the work</h2>
-      <p>Bridal, editorial and soft-glam looks — a selection of favorites.</p>
+      <p>Real brides, editorial &amp; soft-glam looks — straight from Instagram.</p>
     </div>
-    <div class="gal">
-      <div class="gal-item tall reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Bridal</span></div></div>
-      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Soft Glam</span></div></div>
-      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Hairstyle</span></div></div>
-      <div class="gal-item tall reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Editorial</span></div></div>
-      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Natural</span></div></div>
-      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Bridal Party</span></div></div>
+    <div class="ig-feed">
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DVcIa2wjlS5/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DVcIa2wjlS5/">View on Instagram</a></blockquote></div>
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSivmeFjgLd/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DSivmeFjgLd/">View on Instagram</a></blockquote></div>
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWuuuD0jcwY/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DWuuuD0jcwY/">View on Instagram</a></blockquote></div>
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db2tUiXEQJj/" data-instgrm-version="14"><a href="https://www.instagram.com/p/Db2tUiXEQJj/">View on Instagram</a></blockquote></div>
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbcuSI9lf9s/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DbcuSI9lf9s/">View on Instagram</a></blockquote></div>
+      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbNpnhNEc9O/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DbNpnhNEc9O/">View on Instagram</a></blockquote></div>
     </div>
-    <p class="gal-note">On your live site, this fills with your real brides &amp; editorial work — pulled straight from your Instagram.</p>
+    <div class="ig-follow"><a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener" class="btn btn-ghost">Follow @daria_makeup_hair_nc</a></div>
   </div>
 </section>
 
@@ -300,7 +304,6 @@ footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em
       <div class="quote reveal"><div class="stars">★★★★★</div><p>"Daria kept the whole morning so calm. My makeup and hair were exactly what I dreamed, and my whole bridal party looked stunning."</p><cite>Lake Norman Bride · 2025</cite></div>
       <div class="quote reveal"><div class="stars">★★★★★</div><p>"Soft, elegant, and completely me. She listened to every detail and somehow made it even better than I imagined."</p><cite>Destination Bride · 2024</cite></div>
     </div>
-    <p class="gal-note">Your real reviews from Instagram slot in right here.</p>
   </div>
 </section>
 
@@ -338,5 +341,6 @@ const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.ta
 document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3*90)+'ms';io.observe(el)});
 document.getElementById('burger').onclick=()=>location.href='https://tally.so/r/Gxb1VZ';
 </script>
+<script async src="https://www.instagram.com/embed.js"></script>
 </body>
 </html>

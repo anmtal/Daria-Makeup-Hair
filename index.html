@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<script>document.documentElement.classList.remove('no-js');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daria Russkikh — Bridal Makeup & Hair | Charlotte, NC</title>
+<meta name="description" content="Daria Russkikh — bridal makeup & hair artist in Charlotte, NC and beyond. Effortless soft-glam, natural beauty for your wedding day. Limited 2027 dates — book your consultation.">
+<meta name="theme-color" content="#3B2F2A">
+<meta property="og:title" content="Daria Russkikh — Bridal Makeup & Hair | Charlotte, NC">
+<meta property="og:description" content="Effortless soft-glam, natural bridal beauty in Charlotte, NC & beyond. Book your 2027 date.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#FBF6F0; --cream:#F4EAE0; --blush:#EBCDC2; --blush-soft:#F2E1D9;
+  --rose:#C79A8B; --gold:#B08D57; --gold-lt:#C9A46E; --ink:#3B2F2A; --muted:#907F74;
+  --serif:'Cormorant Garamond',Georgia,serif; --sans:'Jost',system-ui,sans-serif;
+  --maxw:1180px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--ivory);line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:.01em}
+.eyebrow{font-family:var(--sans);font-weight:500;font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+.serif-em{font-style:italic;font-weight:400}
+.btn{display:inline-block;font-family:var(--sans);font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;padding:16px 34px;border-radius:2px;transition:.35s;cursor:pointer;border:1px solid transparent}
+.btn-solid{background:var(--ink);color:var(--ivory)}
+.btn-solid:hover{background:var(--gold);transform:translateY(-2px)}
+.btn-ghost{border-color:var(--ink);color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--ivory)}
+.divider{display:flex;align-items:center;justify-content:center;gap:14px;color:var(--gold)}
+.divider span{height:1px;width:54px;background:linear-gradient(90deg,transparent,var(--gold-lt))}
+.divider span:last-child{background:linear-gradient(90deg,var(--gold-lt),transparent)}
+
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.4s;padding:22px 0}
+header.scrolled{background:rgba(251,246,240,.92);backdrop-filter:blur(10px);padding:14px 0;box-shadow:0 1px 0 rgba(59,47,42,.07)}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:var(--serif);font-size:23px;letter-spacing:.04em;display:flex;align-items:center;gap:11px}
+.brand b{font-weight:600}
+.mono{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:17px;color:var(--gold);font-weight:600}
+.nav-links{display:flex;gap:34px;align-items:center}
+.nav-links a{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:400;color:var(--ink);opacity:.85;transition:.25s}
+.nav-links a:hover{opacity:1;color:var(--gold)}
+.nav-cta{background:var(--ink);color:var(--ivory)!important;padding:11px 22px;border-radius:2px;opacity:1!important}
+.nav-cta:hover{background:var(--gold)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer}
+.burger span{width:24px;height:1.5px;background:var(--ink)}
+
+/* hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:
+  radial-gradient(1100px 600px at 78% 18%,var(--blush-soft),transparent 60%),
+  radial-gradient(900px 700px at 8% 92%,#F6E7DA,transparent 55%),var(--ivory)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:90px;padding-bottom:60px}
+.hero h1{font-size:clamp(44px,6.4vw,86px);margin:20px 0 10px}
+.hero h1 em{color:var(--rose)}
+.hero-lede{font-size:19px;color:var(--muted);max-width:30ch;margin:22px 0 34px;font-weight:300}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap}
+.hero-meta{margin-top:38px;display:flex;gap:26px;flex-wrap:wrap;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.hero-meta b{color:var(--ink);font-weight:500}
+/* portrait frame */
+.portrait{position:relative;aspect-ratio:4/5;border-radius:200px 200px 6px 6px;overflow:hidden;
+  background:linear-gradient(160deg,var(--blush) 0%,var(--blush-soft) 55%,#EFDccF 100%);
+  box-shadow:0 40px 80px -40px rgba(59,47,42,.4);display:grid;place-items:center}
+.portrait::after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.5);border-radius:190px 190px 4px 4px;pointer-events:none}
+.portrait .ph{text-align:center;color:rgba(59,47,42,.55);padding:20px}
+.portrait .ph svg{width:64px;height:64px;margin:0 auto 14px;stroke:rgba(59,47,42,.5)}
+.portrait .ph small{font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+.floral{position:absolute;width:150px;opacity:.5;color:var(--gold-lt)}
+.floral.tl{top:78px;left:-24px;transform:rotate(-12deg)}
+.floral.br{bottom:-20px;right:-18px;transform:rotate(160deg)}
+
+/* generic section */
+section{padding:110px 0}
+.sec-head{text-align:center;max-width:640px;margin:0 auto 62px}
+.sec-head h2{font-size:clamp(34px,4.4vw,52px);margin:16px 0 18px}
+.sec-head p{color:var(--muted);font-size:17px}
+.alt{background:var(--cream)}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.about-copy h2{font-size:clamp(32px,4vw,48px);margin:18px 0 22px}
+.about-copy p{color:#5c4d45;margin-bottom:18px}
+.sign{font-family:var(--serif);font-style:italic;font-size:30px;color:var(--gold);margin-top:8px}
+.about-portrait{aspect-ratio:4/5;border-radius:6px 6px 180px 180px;overflow:hidden;background:linear-gradient(200deg,#EEDacc,var(--blush));display:grid;place-items:center;box-shadow:0 40px 80px -46px rgba(59,47,42,.45);position:relative}
+.about-portrait::after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.5);border-radius:4px 4px 172px 172px}
+.about-portrait .ph{color:rgba(59,47,42,.5);text-align:center}
+.about-portrait .ph svg{width:58px;height:58px;stroke:rgba(59,47,42,.5);margin-bottom:10px}
+.about-portrait .ph small{font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.svc{background:var(--ivory);border:1px solid rgba(176,141,87,.18);border-radius:4px;padding:40px 32px;transition:.4s}
+.alt .svc{background:#FCF8F3}
+.svc:hover{transform:translateY(-6px);box-shadow:0 30px 60px -38px rgba(59,47,42,.35);border-color:var(--gold-lt)}
+.svc .ic{width:46px;height:46px;color:var(--gold);margin-bottom:22px}
+.svc h3{font-size:26px;margin-bottom:12px}
+.svc p{color:var(--muted);font-size:15.5px}
+
+/* portfolio */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:16px}
+.gal-item{position:relative;border-radius:4px;overflow:hidden;display:grid;place-items:center;
+  background:linear-gradient(150deg,var(--blush-soft),var(--blush));color:rgba(59,47,42,.6)}
+.gal-item:nth-child(4n+2){background:linear-gradient(150deg,#F0E2D6,#E3C7B8)}
+.gal-item:nth-child(4n+3){background:linear-gradient(150deg,#F4E9DE,#E9D2C4)}
+.gal-item.tall{grid-row:span 2}
+.gal-item .lbl{text-align:center;z-index:2}
+.gal-item .lbl svg{width:34px;height:34px;stroke:rgba(59,47,42,.55);margin-bottom:8px}
+.gal-item .lbl span{display:block;font-family:var(--serif);font-style:italic;font-size:20px;color:rgba(59,47,42,.7)}
+.gal-note{text-align:center;color:var(--muted);font-size:14px;margin-top:26px;font-style:italic}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;counter-reset:s}
+.step{text-align:center;padding:0 10px}
+.step .n{font-family:var(--serif);font-size:56px;color:var(--gold-lt);line-height:1}
+.step h3{font-size:24px;margin:14px 0 10px}
+.step p{color:var(--muted);font-size:15px}
+
+/* testimonials */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.quote{background:var(--ivory);border-radius:4px;padding:38px 32px;border:1px solid rgba(176,141,87,.16)}
+.quote .stars{color:var(--gold);letter-spacing:3px;font-size:14px;margin-bottom:16px}
+.quote p{font-family:var(--serif);font-size:20px;font-style:italic;line-height:1.5;color:#4a3d36;margin-bottom:18px}
+.quote cite{font-family:var(--sans);font-style:normal;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+/* booking CTA */
+.book{position:relative;text-align:center;background:
+  radial-gradient(700px 400px at 50% 0,var(--blush-soft),transparent 60%),var(--ink);color:var(--ivory);padding:120px 0}
+.book .eyebrow{color:var(--gold-lt)}
+.book h2{font-size:clamp(36px,5vw,62px);margin:18px 0 20px;color:var(--ivory)}
+.book p{color:rgba(251,246,240,.72);max-width:44ch;margin:0 auto 36px;font-size:17px}
+.book .btn-solid{background:var(--gold);color:var(--ink)}
+.book .btn-solid:hover{background:var(--gold-lt)}
+.book .btn-ghost{border-color:rgba(251,246,240,.4);color:var(--ivory)}
+.book .btn-ghost:hover{background:var(--ivory);color:var(--ink)}
+.book-meta{margin-top:34px;color:rgba(251,246,240,.6);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+
+/* footer */
+footer{background:#2E241F;color:rgba(251,246,240,.7);padding:56px 0 34px;text-align:center}
+footer .mono{margin:0 auto 18px;border-color:var(--gold-lt);color:var(--gold-lt)}
+footer .fl{display:flex;gap:26px;justify-content:center;margin:20px 0;flex-wrap:wrap}
+footer .fl a{font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+footer .fl a:hover{color:var(--gold-lt)}
+footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em;color:rgba(251,246,240,.4)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:.9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.no-js .reveal{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .hero-grid,.about-grid{grid-template-columns:1fr;gap:44px}
+  .hero-media{order:-1;max-width:360px;margin:0 auto}
+  .svc-grid,.quotes,.steps{grid-template-columns:1fr}
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:180px}
+  .nav-links{display:none}
+  .burger{display:flex}
+  section{padding:82px 0}
+}
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#top" class="brand"><span class="mono">D</span><span>Daria <b>Russkikh</b></span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#words">Kind Words</a>
+      <a href="https://tally.so/r/Gxb1VZ" target="_blank" rel="noopener" class="nav-cta">Book a Date</a>
+    </nav>
+    <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<a id="top"></a>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Bridal Makeup &amp; Hair · Charlotte, NC &amp; Beyond</p>
+      <h1>Effortless, soft-glam beauty for the <em>moments that matter.</em></h1>
+      <p class="hero-lede">Natural, luminous bridal makeup &amp; hair by Daria Russkikh — so you look like the most radiant version of yourself, all day and in every photo.</p>
+      <div class="hero-cta">
+        <a href="https://tally.so/r/Gxb1VZ" target="_blank" rel="noopener" class="btn btn-solid">Book Your Consultation</a>
+        <a href="#portfolio" class="btn btn-ghost">View Portfolio</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>500+</b><br>Faces Beautified</div>
+        <div><b>Charlotte, NC</b><br>&amp; Destination</div>
+        <div><b>Limited 2027</b><br>Dates Open</div>
+      </div>
+    </div>
+    <div class="hero-media reveal">
+      <div class="portrait">
+        <svg class="floral tl" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M50 90 C50 60 50 40 50 15"/><path d="M50 40 C35 34 24 40 20 52 C33 54 45 50 50 40Z"/><path d="M50 55 C65 49 76 55 80 67 C67 69 55 65 50 55Z"/><path d="M50 25 C40 21 32 25 29 34 C39 36 47 32 50 25Z"/><circle cx="50" cy="12" r="4"/></svg>
+        <div class="ph">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          <small>Daria's portrait</small>
+        </div>
+        <svg class="floral br" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M50 90 C50 60 50 40 50 15"/><path d="M50 40 C35 34 24 40 20 52 C33 54 45 50 50 40Z"/><path d="M50 55 C65 49 76 55 80 67 C67 69 55 65 50 55Z"/><circle cx="50" cy="12" r="4"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-portrait reveal">
+      <div class="ph">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        <small>Meet Daria</small>
+      </div>
+    </div>
+    <div class="about-copy reveal">
+      <p class="eyebrow">The Artist</p>
+      <h2>Hi, I'm Daria — your calm on the morning of the big day.</h2>
+      <p>I'm a bridal makeup &amp; hair artist based in Charlotte, North Carolina, with a passion for effortless, soft-glam looks that feel like <em>you</em> — only more luminous. No heavy layers, no masks. Just skin that glows, eyes that read beautifully in every photo, and hair that holds from the first look to the last dance.</p>
+      <p>I've spent years perfecting a natural-beauty approach for brides, editorials and photoshoots — and I travel for destination weddings across the Carolinas and beyond. When I'm not with a bride, I teach the craft to up-and-coming artists.</p>
+      <p class="sign">Daria Russkikh</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="divider"><span></span>✦<span></span></div>
+      <h2>Beauty, tailored to your day</h2>
+      <p>Every service begins with a conversation about your vision, your features, and the feeling you want to walk away with.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10Z"/></svg><h3>Bridal Makeup</h3><p>Long-wear, photograph-ready soft glam built around your skin — luminous, natural, and unmistakably you.</p></div>
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 7c4-4 12-4 16 0"/><path d="M6 10c0 7 3 11 6 11s6-4 6-11"/><path d="M9 12c1 2 5 2 6 0"/></svg><h3>Bridal Hairstyling</h3><p>Romantic up-dos, soft waves and effortless textures designed to hold from the first look to the last dance.</p></div>
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="12" r="9"/><path d="M8 15c1.2 1.4 6.8 1.4 8 0"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/></svg><h3>Trials &amp; Previews</h3><p>A relaxed run-through before the day, so every detail is dialed in and you feel completely at ease.</p></div>
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 8l9-5 9 5-9 5-9-5Z"/><path d="M3 8v8l9 5 9-5V8"/></svg><h3>Events &amp; Soft Glam</h3><p>Engagements, showers, galas and special occasions — the same refined finish, for every moment worth remembering.</p></div>
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/><path d="M8 6l1.5-2h5L16 6"/></svg><h3>Photoshoot Glam</h3><p>Editorial and brand shoots with makeup and hair styled to read beautifully under the lens and the lights.</p></div>
+      <div class="svc reveal"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8Z"/></svg><h3>Destination &amp; Travel</h3><p>Charlotte and wherever "I do" takes you — available to travel for weddings across the Carolinas and beyond.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="divider"><span></span>✦<span></span></div>
+      <h2>A glimpse of the work</h2>
+      <p>Bridal, editorial and soft-glam looks — a selection of favorites.</p>
+    </div>
+    <div class="gal">
+      <div class="gal-item tall reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Bridal</span></div></div>
+      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Soft Glam</span></div></div>
+      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Hairstyle</span></div></div>
+      <div class="gal-item tall reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Editorial</span></div></div>
+      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Natural</span></div></div>
+      <div class="gal-item reveal"><div class="lbl"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="4"/></svg><span>Bridal Party</span></div></div>
+    </div>
+    <p class="gal-note">On your live site, this fills with your real brides &amp; editorial work — pulled straight from your Instagram.</p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="divider"><span></span>✦<span></span></div>
+      <h2>How it works</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="n">01</div><h3>Inquire</h3><p>Share your date, venue and vision. I'll confirm availability and send your tailored quote.</p></div>
+      <div class="step reveal"><div class="n">02</div><h3>Trial</h3><p>We perfect your look together, so there are zero surprises on the morning of your wedding.</p></div>
+      <div class="step reveal"><div class="n">03</div><h3>Your Day</h3><p>I arrive on location, keep the morning calm, and make sure you feel absolutely radiant.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="words">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="divider"><span></span>✦<span></span></div>
+      <h2>Kind words from brides</h2>
+      <p>A few of the notes that mean the most.</p>
+    </div>
+    <div class="quotes">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"I felt like the best version of myself — glowing, natural, and it lasted the entire night. Every photo is perfect."</p><cite>Charlotte Bride · 2025</cite></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Daria kept the whole morning so calm. My makeup and hair were exactly what I dreamed, and my whole bridal party looked stunning."</p><cite>Lake Norman Bride · 2025</cite></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Soft, elegant, and completely me. She listened to every detail and somehow made it even better than I imagined."</p><cite>Destination Bride · 2024</cite></div>
+    </div>
+    <p class="gal-note">Your real reviews from Instagram slot in right here.</p>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="book" id="book">
+  <div class="wrap reveal">
+    <p class="eyebrow">Now Booking</p>
+    <h2>Let's make you radiant.</h2>
+    <p>2027 dates are limited and booking now. Tell me about your day and I'll be in touch personally within 48 hours.</p>
+    <div class="hero-cta" style="justify-content:center">
+      <a href="https://tally.so/r/Gxb1VZ" target="_blank" rel="noopener" class="btn btn-solid">Check Your Date</a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener" class="btn btn-ghost">See Instagram</a>
+    </div>
+    <p class="book-meta">Charlotte, NC &amp; Destination · Bridal · Editorial · Lessons</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">D</span>
+    <div class="fl">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a>
+      <a href="https://tally.so/r/Gxb1VZ" target="_blank" rel="noopener">Book</a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <small>© Daria Russkikh · Bridal Makeup &amp; Hair · Charlotte, North Carolina</small>
+    <small style="opacity:.5;margin-top:8px">Site preview crafted by Apex Web Studio</small>
+  </div>
+</footer>
+
+<script>
+const hdr=document.getElementById('hdr');
+addEventListener('scroll',()=>hdr.classList.toggle('scrolled',scrollY>40));
+const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3*90)+'ms';io.observe(el)});
+document.getElementById('burger').onclick=()=>location.href='https://tally.so/r/Gxb1VZ';
+</script>
+</body>
+</html>

@@ -119,6 +119,15 @@ section{padding:110px 0}
 .ig-cell{width:min(336px,100%)}
 .instagram-media{margin:0 auto!important;min-width:0!important}
 .ig-follow{text-align:center;margin-top:40px}
+.portrait .floral{display:none}
+.portrait-tag{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:34px 18px 18px;color:#fff;font-size:11px;letter-spacing:.22em;text-transform:uppercase;text-align:center;background:linear-gradient(to top,rgba(59,47,42,.65),transparent)}
+.portrait img,.about-portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.about-portrait img{object-position:center 24%}
+.pgal{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:300px;gap:14px}
+.pgal a{position:relative;overflow:hidden;border-radius:4px;display:block;background:var(--blush-soft)}
+.pgal img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.pgal a:hover img{transform:scale(1.06)}
+@media(max-width:900px){.pgal{grid-template-columns:repeat(2,1fr);grid-auto-rows:210px}}
 
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;counter-reset:s}
@@ -208,10 +217,8 @@ footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em
     <div class="hero-media reveal">
       <div class="portrait">
         <svg class="floral tl" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M50 90 C50 60 50 40 50 15"/><path d="M50 40 C35 34 24 40 20 52 C33 54 45 50 50 40Z"/><path d="M50 55 C65 49 76 55 80 67 C67 69 55 65 50 55Z"/><path d="M50 25 C40 21 32 25 29 34 C39 36 47 32 50 25Z"/><circle cx="50" cy="12" r="4"/></svg>
-        <div class="ph">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
-          <small>Daria's portrait</small>
-        </div>
+        <img src="assets/photos/g2.jpg" alt="Editorial bridal makeup and hair by Daria Russkikh">
+        <span class="portrait-tag">Bridal · Editorial · Soft Glam</span>
         <svg class="floral br" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M50 90 C50 60 50 40 50 15"/><path d="M50 40 C35 34 24 40 20 52 C33 54 45 50 50 40Z"/><path d="M50 55 C65 49 76 55 80 67 C67 69 55 65 50 55Z"/><circle cx="50" cy="12" r="4"/></svg>
       </div>
     </div>
@@ -222,10 +229,8 @@ footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em
 <section id="about">
   <div class="wrap about-grid">
     <div class="about-portrait reveal">
-      <div class="ph">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
-        <small>Meet Daria</small>
-      </div>
+      <img src="assets/photos/daria-portrait.jpg" alt="Daria Russkikh, bridal makeup &amp; hair artist in Charlotte, NC">
+      <span class="portrait-tag">Daria Russkikh</span>
     </div>
     <div class="about-copy reveal">
       <p class="eyebrow">The Artist</p>
@@ -262,15 +267,15 @@ footer small{display:block;margin-top:18px;font-size:11.5px;letter-spacing:.08em
     <div class="sec-head reveal">
       <div class="divider"><span></span>✦<span></span></div>
       <h2>A glimpse of the work</h2>
-      <p>Real brides, editorial &amp; soft-glam looks — straight from Instagram.</p>
+      <p>Real brides, editorial &amp; soft-glam looks.</p>
     </div>
-    <div class="ig-feed">
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DVcIa2wjlS5/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DVcIa2wjlS5/">View on Instagram</a></blockquote></div>
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DSivmeFjgLd/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DSivmeFjgLd/">View on Instagram</a></blockquote></div>
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWuuuD0jcwY/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DWuuuD0jcwY/">View on Instagram</a></blockquote></div>
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db2tUiXEQJj/" data-instgrm-version="14"><a href="https://www.instagram.com/p/Db2tUiXEQJj/">View on Instagram</a></blockquote></div>
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbcuSI9lf9s/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DbcuSI9lf9s/">View on Instagram</a></blockquote></div>
-      <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbNpnhNEc9O/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DbNpnhNEc9O/">View on Instagram</a></blockquote></div>
+    <div class="pgal">
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/g1.jpg" alt="Bride with autumn bouquet — soft-glam bridal makeup and hair" loading="lazy"></a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/hero-bride.jpg" alt="Soft-glam bridal makeup with gold floral headpiece" loading="lazy"></a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/g3.jpg" alt="Glossy Hollywood bridal hair waves" loading="lazy"></a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/g5.jpg" alt="Daria applying luminous bridal makeup" loading="lazy"></a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/g4.jpg" alt="Elegant bridal hairstyle from behind" loading="lazy"></a>
+      <a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener"><img src="assets/photos/g6.jpg" alt="Behind the scenes — bridal makeup styling" loading="lazy"></a>
     </div>
     <div class="ig-follow"><a href="https://www.instagram.com/daria_makeup_hair_nc/" target="_blank" rel="noopener" class="btn btn-ghost">Follow @daria_makeup_hair_nc</a></div>
   </div>
@@ -341,6 +346,5 @@ const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.ta
 document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3*90)+'ms';io.observe(el)});
 document.getElementById('burger').onclick=()=>location.href='https://tally.so/r/Gxb1VZ';
 </script>
-<script async src="https://www.instagram.com/embed.js"></script>
 </body>
 </html>
